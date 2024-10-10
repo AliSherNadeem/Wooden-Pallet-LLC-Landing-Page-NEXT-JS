@@ -6,7 +6,7 @@ import { Link as ScrollLink } from "react-scroll";
 
 const HeroSection = () => {
   return (
-    <div id="home" className="relative h-[90vh]">
+    <div id="home" className="relative h-[50vh] md:h-[80vh] ">
       {" "}
       <Image
         src="/images/hero-background.jpg"
@@ -18,7 +18,7 @@ const HeroSection = () => {
       />
       <div className="absolute inset-0 bg-black opacity-50"></div>
       <div className="relative container mx-auto px-4 h-full flex items-center">
-        <div className="text-amber-50 max-w-2xl ">
+        <div className="text-amber-50 max-w-2xl p-4 ">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 tracking-wide">
             AbdulRaheem Diwaya Carpentry W.Shop LLC
           </h1>
@@ -29,7 +29,7 @@ const HeroSection = () => {
             to="contact"
             smooth={true}
             duration={500}
-            className="bg-amber-600 text-amber-50 py-3 px-6 rounded-lg font-semibold hover:bg-amber-700 transition duration-300 cursor-pointer inline-block"
+            className="bg-amber-600 text-amber-50 py-3 px-6 rounded-lg font-semibold hover:bg-amber-700 transition duration-300 cursor-pointer inline-block "
           >
             Contact Us
           </ScrollLink>

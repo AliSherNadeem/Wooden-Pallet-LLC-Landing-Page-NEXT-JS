@@ -20,13 +20,13 @@ const NavBar = () => {
 
   return (
     <nav className="bg-amber-100 shadow-md">
-      <div className="container mx-auto px-3 py-6">
+      <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           <ScrollLink
             to="home"
             smooth={true}
             duration={500}
-            className="text-3xl font-bold text-amber-900 cursor-pointer"
+            className="text-2xl font-bold text-amber-900 cursor-pointer"
           >
             AbdulRaheem Diwaya
           </ScrollLink>
@@ -37,7 +37,7 @@ const NavBar = () => {
                 to={item.to}
                 smooth={true}
                 duration={500}
-                className="text-lg font-semibold text-amber-800 hover:text-amber-900 cursor-pointer transform hover:scale-105 duration-200"
+                className="text-sm font-semibold text-amber-800 hover:text-amber-900 cursor-pointer transform hover:scale-105 duration-200"
               >
                 {item.name}
               </ScrollLink>

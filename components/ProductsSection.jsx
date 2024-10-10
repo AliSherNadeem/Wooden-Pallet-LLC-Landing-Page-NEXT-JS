@@ -15,7 +15,7 @@ const ProductsSection = () => {
         <h2 className="text-3xl font-bold text-amber-900 text-center mb-12">
           Our Products
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 justify-items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 justify-items-center ml-4 mr-4">
           {products.map((product) => (
             <div key={product.name} className="w-full flex justify-center">
               <Card {...product} />
